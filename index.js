@@ -14,10 +14,10 @@ function inViewport(el){
 };
 
 inViewport.watch = function(el, fn){
-  var state = false;
+  var state;
   var check = function(){
     var cur = inViewport(el);
-    if (cur != state) {
+    if (cur !== state) {
       state = cur;
       fn(state);
     }
