@@ -3,5 +3,8 @@
   "version": "1.0.0",
   "description": "Check if a dom element is fully contained in the viewport",
   "repository": "micnews/inviewport",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "debounce": "^1.0.0"
+  }
 }
