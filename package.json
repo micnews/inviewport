@@ -1,6 +1,6 @@
 {
   "name": "inviewport",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Check if a dom element is fully contained in the viewport",
   "repository": "micnews/inviewport",
   "license": "MIT",
